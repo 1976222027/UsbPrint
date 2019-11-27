@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="printer_list">
+        <item>DASCOM DT-210</item>
+        <item>DASCOM DT-230</item>
+        <item>SYNCROWN SMP-R381</item>
+        <item>SYNCROWN SMP-R385</item>
+        <item>SYNCROWN SMP-R386</item>
+        <item>SMP-M240</item>
+        <item>SMP-M24L</item>
+        <item>SMP-M250</item>
+        <item>SMP-L258</item>
+        <item>SMP-L380</item>
+        <item>PPT2</item>
+        <item>PPT2-A</item>
+        <item>PPT2-UR</item>
+        <item>MPD2</item>        
+        <item>MPT8</item>
+        <item>MPT-II</item>  
+        <item>MPT-EII</item>
+        <item>MPT-2B</item>
+        <item>MPT-III</item>  
+        <item>MPT58</item>
+        <item>MPT58-LV</item>
+        <item>MLP2</item>
+        <item>MLP2-LV</item>
+        <item>RG-LP58A</item>
+        <item>MPS-III</item>
+        <item>TP801 Printer</item>
+        <item>TP805 Printer</item>
+        <item>TP806 Printer</item>  
+        <item>HPRT TP801</item>
+        <item>HPRT TP805</item>
+        <item>HPRT TP806</item>
+        <item>POS80-A Printer</item>
+        <item>POS80-B Printer</item>
+        <item>POS80-C Printer</item> 
+        <item>ELGIN i9</item>
+        <item>POS58A Printer</item>
+        <item>PPTII-A Printer</item>
+        <item>HPRT LPQ58</item>
+        <item>HPRT LPQ80</item>
+    </string-array>
+    
+</resources>

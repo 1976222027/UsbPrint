@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bluetooth</string>
+    <string name="action_settings">Settings</string>
+    <string name="Tip">请与打印机蓝牙配对，完成连接之后再使用此应用测试数据的传输！</string>
+    <color name="BkColor">#FF2536</color>
+    <string name="Welcome">欢迎使用专业POS票据公司生产的针打，热敏系列打印机！\n</string>
+    <string name="PrinterTest">打印测试</string>
+    <string name="OpenCash">开钱箱</string>
+    <string name="CutPaper">切纸</string>
+    <string name="PrintContent">请输入您要打印的内容！</string>
+    <string name="Logs">XPrinter©-2014</string>
+    <string name="PrintFaild">打印失败...</string>
+    <string name="OpenCashFaild">打开钱箱失败...</string>
+    <string name="CutPaperFaild">切纸失败...</string>
+    <string name="PlsConnectButtonPrinter">请把设备与蓝牙打印机配对好连接！</string>
+    <string name="Connecting">正在连接</string>
+    <string name="Disconnected">未连接</string>
+    <string name="Connected">已连接</string>
+    <string name="PlsChoiceDevice">请选择已配对的设备...</string>
+    <string name="NotBluetoothAdapter">设备没有蓝牙适配器！</string>
+    <string name="XPrinterhint">蓝牙没有打开，或没有配对设备\n是否在设定界面中打开？</string>
+    <string name="ConnectFailed">连接失败...</string>
+
+</resources>

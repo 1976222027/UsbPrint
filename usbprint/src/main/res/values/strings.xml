@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">USB</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">使用"USB Host Check"进行"Fix"修复两个系统文件之后，方可使用USB打印。(需要ROOT权限)</string>
+    <string name="inputIp">请输入打印机的IP</string>
+    <string name="inPrinterIp">192.168.1.248</string>
+    <string name="conTest">打开USB</string>
+    <string name="printf">打印</string>
+    <string name="inputData">欢迎使用专业POS票据公司生产的针打、热敏系列打印机。</string>
+    <string name="log">Log...</string>
+</resources>

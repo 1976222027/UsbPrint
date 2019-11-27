@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/plInputIP"
+        android:textSize="20sp"
+        android:text="@string/hello_world" />
+
+    <EditText
+        android:id="@+id/printerIp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/plInputIP"
+        android:layout_toLeftOf="@+id/conTest"
+        android:hint="@string/inputIp"
+        android:inputType="text"
+        android:text="@string/inPrinterIp" />
+    <Button 
+        android:enabled="false"
+        android:id="@+id/printf"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/conTest"
+        android:layout_below="@id/conTest"
+        android:layout_alignRight="@id/conTest"
+        android:text="@string/printf"/>
+
+    <EditText
+        android:id="@+id/printfData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/printerIp"
+        android:layout_below="@id/printerIp"
+        android:layout_toLeftOf="@id/conTest"
+        android:hint="@string/inputData"
+        android:inputType="textMultiLine"
+        android:text="@string/inputData" />
+
+    <Button
+        android:id="@+id/conTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/plInputIP"
+        android:text="@string/conTest" />
+
+    <TextView
+        android:id="@+id/textXPrinter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@id/printf"
+        android:text="XPrinter(C)-2013" 
+        android:background="#AAAAAA"/>
+
+    <EditText
+        android:id="@+id/printfLog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textXPrinter"
+        android:layout_alignLeft="@+id/printfData"
+        android:layout_alignTop="@+id/textXPrinter"
+        android:layout_toLeftOf="@+id/textXPrinter"
+        android:background="#AAAAAA"
+        android:focusable="false"
+        android:hint="@string/log"
+        android:singleLine="true"
+        android:textSize="14sp" />
+
+    <Button
+        android:enabled="false"
+        android:id="@+id/buttonCash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/printf"
+        android:layout_alignRight="@+id/printf"
+        android:layout_below="@+id/printf"
+        android:text="开钱箱" />
+
+    <Button
+        android:enabled="false"
+        android:id="@+id/buttonCut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonCash"
+        android:layout_alignRight="@+id/buttonCash"
+        android:layout_below="@+id/buttonCash"
+        android:text="切纸" />
+
+</RelativeLayout>

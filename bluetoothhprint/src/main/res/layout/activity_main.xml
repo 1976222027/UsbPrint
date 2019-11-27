@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d4fbfb"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textTip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/BkColor"
+        android:text="@string/Tip"
+        android:textSize="25sp" />
+    
+    <Spinner
+    android:id="@+id/deviceSpinner"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/textTip"
+    android:layout_alignRight="@+id/InputText"
+    android:layout_below="@+id/textTip" />
+    
+    <Button
+        android:id="@+id/buttonConnect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonPrintTest"
+        android:layout_alignRight="@+id/textTip"
+        android:layout_above="@+id/buttonPrintTest"
+        android:text="@string/Disconnected" />
+    
+
+    <Button
+        android:id="@+id/buttonPrintTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textTip"
+        android:layout_below="@+id/deviceSpinner"
+        android:text="@string/PrinterTest" />
+
+    <EditText
+        android:id="@+id/InputText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textTip"
+        android:layout_below="@+id/deviceSpinner"
+        android:layout_toLeftOf="@+id/buttonPrintTest"
+        android:hint="@string/PrintContent"
+        android:text="@string/Welcome" />
+
+    <Button
+        android:id="@+id/ButtonOpenCash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonPrintTest"
+        android:layout_alignRight="@+id/buttonPrintTest"
+        android:layout_below="@+id/buttonPrintTest"
+        android:text="@string/OpenCash" />
+
+    <Button
+        android:id="@+id/ButtonCutPaper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ButtonOpenCash"
+        android:layout_alignRight="@+id/ButtonOpenCash"
+        android:layout_below="@+id/ButtonOpenCash"
+        android:text="@string/CutPaper" />
+
+    <TextView
+        android:id="@+id/textXPrinter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/TextLogs"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/textTip"
+        android:gravity="bottom"
+        android:background="#03bcbc"
+        android:text="@string/Logs" />
+
+    <TextView
+        android:id="@+id/TextLogs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/InputText"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/textXPrinter"
+        android:background="#03bcbc"
+        android:text="@string/Logs" />
+
+
+
+</RelativeLayout>
